@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { BenchmarkMarker } from './benchmark-marker'
 
 export default function Home() {
   return (
@@ -109,7 +108,6 @@ export default function Home() {
           </p>
         </a>
       </div>
-      <BenchmarkMarker />
     </main>
   )
 }
